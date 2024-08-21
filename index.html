@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+  
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Landing page</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i id="nav_logo">
+                <span class="logo-content">
+                  <img src="src/images/chopstick.png" alt="Chopstick icon" class="icon">
+                  SUSHI
+                </span>
+              </i>
+              
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+             Peça aqui
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+               </button>
+
+        </div>
+    </header>
+
+    <main id="content">
+<section id="home">
+    <div class="shape"></div>
+    <div id="cta">
+        <h1 class="title">
+            Sua próxima refeição favorita está 
+            <span> aqui </span>
+        </h1>
+
+        <p class="description">
+            Sabores autênticos, preparados com carinho para fazer de cada refeição um momento especial. Descubra o prazer de comer bem
+        </p>
+
+        <div id="cta" class="buttons">
+            <!-- links -->
+            <a href="#" class="btn-default">
+                Ver cardápio
+            </a>
+            <a href="tel: +55555555555555" id="phone_button">
+                <button class="btn-default">
+                    <i class="fa-solid fa-phone"></i>
+                    
+                </button>
+                (55)95555-5555
+            </a>
+        </div>
+
+        <div class="social-media-buttons">
+         <!-- whatsapp -->
+            <a href="">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <!-- instagram -->
+            <a href="">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </div>
+        
+    </div>
+    <div id="banner">
+<img src="src/images/sushi1-removebg-preview.png" alt="">
+    </div>
+</section>
+
+<section id ="menu">
+    <h2 class="section-title"> Cardápio</h2>
+    <h3 class="section-subtitle">Nossos pratos especiais</h3>
+
+<div id="dishes">
+    <div class="dish">
+       
+       <img src="src/images/printtt-removebg-preview.png" class= "dish-image">
+       <!-- <img src="src/images/453602192_1137059101363483_1294258863481117358_n.jpg">
+        <img src="src/images/453502250_1137070518029008_3632090686750950393_n.jpg" alt=""> -->
+    
+        <h3 class="dish-title">
+            Combo Fusion
+        </h3>
+        <span class="dish-description">
+            53 Peças
+        </span>
+
+        <div class="dish-rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>(500+)</span>
+
+        </div>
+        <div class="dish-price">
+            <h4>R$90,00</h4>
+            <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+        </div>
+    </div>
+
+    <div class="dish">
+        
+
+        <img src="src/images/Screenshot_2024-08-21_14-25-10-removebg-preview.png" class= "dish-image">
+        <h3 class="dish-title">
+            Camarão ao molho oriental        </h3>
+        <span class="dish-description">
+...
+        </span>
+        <div class="dish-rate">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>(500+)</span>
+        </div>
+        <div class="dish-price">
+            <h4>R$50,00</h4>
+            <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+            </button>
+        </div>
+</div>
+
+
+<div class="dish">
+   
+
+<img src="src/images/Screenshot_2024-08-21_11-25-04-removebg-preview.png" class= "dish-image"> 
+<h3 class="dish-title">
+    Temaki camarão crocante
+</h3>
+<span class="dish-description">
+    ...
+            </span>
+            <div class="dish-rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>(500+)</span>
+            </div>
+            <div class="dish-price">
+                <h4>R$30,00</h4>
+                <button class="btn-default">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </button>
+            </div>
+</div>
+
+
+<div class="dish">
+    
+
+<img src="src/images/printt-removebg-preview.png" class= "dish-image"> 
+<h3 class="dish-title">
+    Sunomono crocante
+</h3>
+<span class="dish-description">
+    ...
+            </span>
+            <div class="dish-rate">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span>(500+)</span>
+            </div>
+            <div class="dish-price">
+                <h4>R$30,00</h4>
+                <button class="btn-default">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </button>
+            </div>
+</div>
+
+</section>
+
+<section id="testimonials">
+    <div class="shape"></div>
+
+    <img src="src/images/Screenshot_2024-08-21_14-56-53-removebg-preview.png" id="testimonials_chef">
+
+<div id="testimonials_content">
+    <h2 class="section-title">
+        Depoimentos
+    </h2>
+    <h3 class="section-subtitle">
+        O que os clientes falam sobre nós
+    </h3>
+
+    <div id="feedbacks">
+    <div class="feedback">
+        <img src="src/images/avatar.png" class="feedback-avatar">
+        <div class="feedback-content">
+            <p>
+                Alice
+                <span>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+                </span>
+            </p>
+            <p>
+                Fiz um pedido online e fiquei impressionado! A comida chegou rápida e quentinha, e o sabor estava incrível, como se eu estivesse no próprio restaurante. A qualidade e a atenção aos detalhes foram notáveis, mesmo no delivery. Com certeza vou pedir novamente!
+            </p>
+         </div>
+    </div>
+    <img src="src/images/avatar.png" class="feedback-avatar">
+    <div class="feedback-content">
+        <p>
+            Helena
+            <span>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+            </span>
+        </p>
+        <p>
+            Pedido online impecável! Comida deliciosa e entrega rápida. Vou repetir!
+        </p>
+     </div>
+    </div>
+
+    <button class="btn-default">
+        Ver mais avaliações
+        <!-- pode botar um link para ver avaliaçoes do google -->
+    </button>
+</div>
+
+</section>
+    </main>
+<footer>
+    <img src="src/images/wave (1).svg" alt="">
+    <div id="footer_items">
+        <span id="copyright">
+            &copy 2024 Pamella Belo
+        </span>
+        <div class="social-media-buttons">
+            <!-- whatsapp -->
+               <a href="">
+                   <i class="fa-brands fa-whatsapp"></i>
+               </a>
+               <!-- instagram -->
+               <a href="">
+                   <i class="fa-brands fa-instagram"></i>
+               </a>
+               <a href="">
+                   <i class="fa-brands fa-facebook"></i>
+               </a>
+           </div>
+    </div>
+</footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
